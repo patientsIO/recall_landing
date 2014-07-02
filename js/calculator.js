@@ -3,10 +3,10 @@ var Calculator = Calculator || {};
 Calculator.init = function(){
 
   $( "#patientSlider" ).slider({
-    value:1600,
-    min: 0,
+    value:5000,
+    min: 1500,
     max: 20000,
-    step: 10,
+    step: 100,
     slide: function( event, ui ) {
       $( "#numPatients" ).val( ui.value );
       Calculator.calculate();
@@ -15,8 +15,8 @@ Calculator.init = function(){
 
   $( "#examSlider" ).slider({
     value:350,
-    min: 0,
-    max: 1500,
+    min: 250,
+    max: 500,
     step: 10,
     slide: function( event, ui ) {
       $( "#examFee" ).val( ui.value );
@@ -26,9 +26,9 @@ Calculator.init = function(){
 
 
   $( "#startFrequencySlider" ).slider({
-    value:36,
+    value:27,
     min: 12,
-    max: 60,
+    max: 48,
     step: 1,
     slide: function( event, ui ) {
       $( "#startFrequency" ).val( ui.value );
@@ -37,9 +37,9 @@ Calculator.init = function(){
   });
 
   $( "#endFrequencySlider" ).slider({
-    value:32,
+    value:21,
     min: 12,
-    max: 60,
+    max: 48,
     step: 1,
     slide: function( event, ui ) {
       $( "#endFrequency" ).val( ui.value );
