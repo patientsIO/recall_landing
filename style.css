@@ -149,7 +149,7 @@ form input.email {
 	font-size: 20px;
 }
 
-form input.email {
+form input.name.last {
 	float: right;
 }
 
@@ -214,4 +214,71 @@ footer {
 		background: url(images/arrow2x.png) no-repeat top center;
 		background-size: 100%;
 	}
+}
+
+
+#calculator{
+  text-align:center;
+  font-size:1.3em;
+  line-height:1.2em;
+  margin:0 auto;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin-bottom:2em
+}
+
+#calculator .theMoney{
+  width:48%;
+  float:left;
+}
+
+#calculator .theSliders{
+  width:48%;
+  float:right;
+}
+
+
+#calculator span.data{
+  display:block;
+  font-weight:bold;
+}
+
+#calculator span.data input{
+  background:transparent;
+  border:0;
+  font-size:1em;
+  margin:0px;
+  padding:0px;
+  font-weight:bold;
+  border-bottom:1px solid black;
+  line-height:1em;
+  margin-bottom:0.5em;
+}
+
+#calculator span.data input.right{
+  text-align:right;
+}
+
+#calculator .ui-slider{
+  margin-bottom:0.5em;
+  font-size:0.5em;
+}
+
+#calculator .theMoney{
+  font-size:1.7em;
+  line-height:1.6em;
+  background:#2aa7db;
+  color:white;
+  border-radius:15px;
+}
+
+#calculator .theMoney .small{
+  font-size:0.5em;
+  line-height:0.5em;
+}
+
+#calculator br.clear{
+  clear:both;
 }
