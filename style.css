@@ -70,7 +70,7 @@ header .arrow {
 }
 
 section {
-
+  clear:both;
 }
 
 section .wrapper {
@@ -222,8 +222,8 @@ footer {
   font-size:1.3em;
   line-height:1.2em;
   margin:0 auto;
-  border-top:1px solid black;
-  border-bottom:1px solid black;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee;
   padding-top:1em;
   padding-bottom:1em;
   margin-bottom:2em
