@@ -5,7 +5,7 @@
 body{
 	font-family: "Merriweather", "Georgia", serif;
 	color: #7b7d7e;
-	font-size: 120%;
+	font-size: 112%;
 	line-height: 1.7;
 	text-align: center;
 	margin: 0;
@@ -33,10 +33,6 @@ a {
 	color: #f7873a;
 }
 
-li {
-    text-align: left;
-}
-
 header {
 	background-image: url(images/bg.jpg);
 	background-repeat: no-repeat;
@@ -52,7 +48,7 @@ header {
 }
 
 header h1 {
-	font-size: 70px;
+	font-size: 78px;
 	color: #fff;
 }
 
@@ -60,7 +56,7 @@ header h2 {
 	font-family: "Merriweather", "Georgia", serif;
 	font-weight: 300;
 	font-style: italic;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 header .arrow {
@@ -82,7 +78,7 @@ section .wrapper {
 	max-width: 830px;
 	margin: 0 auto;
 	display: block;
-	padding: 80px 20px;
+	padding: 120px 20px;
 }
 
 section p {
@@ -99,18 +95,13 @@ section em {
 	color: #b4c8d5;
 }
 
-section .wrapper ul {
-    max-width: 700px;
-    display: block; 
-    margin: 0 auto;
-}
 section.callout {
 	font-family: "Roboto", "Helvetica Neue", sans-serif;
 	background: #2aa7db;
 	color: #fff;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	font-size: 200%;
-	font-weight: normal;
+	font-size: 150%;
+	font-weight: 100;
 	line-height: normal;
 	border-top: 1px solid #3596be;
 	border-bottom: 1px solid #3596be;
